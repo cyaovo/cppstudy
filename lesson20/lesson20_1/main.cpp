@@ -6,6 +6,7 @@ using namespace std;
 
 int main()
 {Cylinder cy1(3.5,6.4,5.2,10);
+cout<<"point part of the cylinder:\n"<<(Point)cy1;
  cout<<"\noriginal cylinder:\nx="<<cy1.getX()<<", y="<<cy1.getY()<<", r="
      <<cy1.getRadius()<<", h="<<cy1.getHeight()<<"\narea="<<cy1.area()
      <<", volume="<<cy1.volume()<<endl;
